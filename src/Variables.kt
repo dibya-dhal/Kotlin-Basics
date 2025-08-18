@@ -1,7 +1,7 @@
 fun main() {
 
-    var name: String = "John" // var is mutable
-    val age : Int = 25// val is immutable
+    var name = "John" // var is mutable
+    val age  = 25// val is immutable
 
     println("Name : $name")
     println("Age : $age")
