@@ -7,10 +7,10 @@ fun main() {
     println("Number : $number")
 
     val grade ='U'   // Char data type -> used for storing single characters
-    println("Letter : $grade")
+    println("Grade : $grade")
 
     val isAndroidFun  = true  // Boolean data type-> used for true/false value
-    println("Is a Boy : $isAndroidFun")
+    println("Is Android Fun : $isAndroidFun")
 
     val height = 5.10    // Double data type -> used for storing decimal numbers
     println("Height : $height")
