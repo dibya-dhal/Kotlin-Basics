@@ -1,17 +1,22 @@
 fun main() {
 
-    val number = 15
+   val number = 15
 
-    // Simple if Condition
-    if (number > 10){
+   // simple if Condition
+    if (number > 10) {
         println("$number is greater than 10")
     }
 
     // if-else Condition
-    if (number % 2 == 0){
+    if(number % 2 == 0){
         println("$number is Even")
-    }else{
+    }else {
         println("$number is Odd")
     }
+
+
+
+
+
 
 }
