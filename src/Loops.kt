@@ -19,4 +19,25 @@ fun main() {
         println("Element : $num")
     }
 
+    // Do-While loop
+    println("\nDo-While loop :")
+    var x = 1
+    do {
+        println("x = $x")
+        x++
+    }while (x <= 5)
+
+    // Break and Continue
+    println("\nBreak & Continue Example :")
+    for (i in 1..10){
+        if (i == 6){
+            println("Breaking at $i")
+            break
+        }
+        if (i % 2 == 0){
+            println("Skipping $i")
+            continue
+        }
+    }
+
 }
