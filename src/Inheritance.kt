@@ -1,8 +1,21 @@
 // Parent class -open to allow inheritance
 
-class Person(val name: String, val age : Int){
+open class Animal{
 
-  fun  showDetails() {
-        println("Name: $name , Age : $age")
+    fun eat(){
+        println("Animal is eating")
     }
+}
+// Child class inherit from Animal
+class Dog: Animal(){
+    fun bark(){
+        println("Dog is barking..")
+    }
+}
+
+fun main() {
+    val dog = Dog()
+    dog.eat()
+    dog.bark()
+
 }
