@@ -25,5 +25,6 @@ fun main() {
     val cat = Cat("Kitty")
     dog.makeSound()
     cat.makeSound()
+    cat.sleep()
 
 }
