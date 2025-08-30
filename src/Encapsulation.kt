@@ -1,10 +1,19 @@
-// Public and private example
+// private example
+class Person1{
+    private var age = 0
 
-class Student1{
-    // Public property (accessible everywhere)
-    var name : String = "Default name"
+    fun setAge(value : Int){
+        age = value
+    }
+    fun showAge(){
+        println("Age is $age")
+    }
+}
 
+fun main() {
 
-    private var age : Int = 0
+    val person  = Person1()
+    person.setAge(20)
+    person.showAge()
 
 }
