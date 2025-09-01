@@ -4,3 +4,9 @@ internal class Library {
     }
 
 }
+
+fun main() {
+    val lib = Library()
+    lib.message()
+
+}
