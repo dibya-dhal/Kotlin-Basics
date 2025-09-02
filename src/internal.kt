@@ -1,4 +1,4 @@
-internal class Employee(private val name: String, private val salary: Int) {
+internal class Employee(private val name: String, private val salary: Double) {
     // internal function
     internal fun show() {
         println("Employee Name : $name, Salary : $salary")
@@ -14,6 +14,12 @@ internal class Department(private val deptName: String){
 }
 
 fun main() {
+
+    val emp = Employee("John",50000.0)
+    emp.show()
+
+    val dept = Department("Android Developer")
+    dept.showDept()
 
 }
 
