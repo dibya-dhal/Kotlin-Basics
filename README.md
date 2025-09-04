@@ -3,7 +3,7 @@ This repository contains my practice and revision codes in **Kotlin**.
 It's my first time uploading code to GitHub🎉
 
 ##  What's inside
-- Basics of Kotlin (Variables, Data Types,Operators,Loops, Function, Class & Object, Inheritance etc.)
+- Basics of Kotlin (Variables, Data Types,Operators,Loops, Function, Class & Object, Inheritance, Encapsulation etc.)
 - More concepts will be added as I revise
 
 ----
