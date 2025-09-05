@@ -11,9 +11,10 @@ object AppConfig{
 
 fun main() {
 
+    // Access singleton object directly
     AppConfig.printConfig()
 
-
+ // update version
     AppConfig.version= "1. 1. 0"
      AppConfig.printConfig()
 
