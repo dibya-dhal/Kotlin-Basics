@@ -5,3 +5,8 @@ class MathUtils {
         }
     }
 }
+
+fun main() {
+
+    println("Square : ${MathUtils.square(52)}")
+}
