@@ -1,12 +1,8 @@
-class MathUtils {
-    companion object{
-        fun square(x : Int) : Int {
-            return x * x
+class User private constructor(val name : String) {
+
+    companion object {
+        fun createGuest() : User{
+            return User("Guest")
         }
     }
-}
-
-fun main() {
-
-    println("Square : ${MathUtils.square(52)}")
 }
