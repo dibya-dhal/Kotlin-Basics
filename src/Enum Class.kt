@@ -18,3 +18,12 @@ fun move(direction: Direction){
 
     }
 }
+
+fun main() {
+
+    val currentDirection  = Direction.NORTH
+    println("Current Direction : $currentDirection")
+    move(currentDirection)
+    move(Direction.WEST)
+
+}
