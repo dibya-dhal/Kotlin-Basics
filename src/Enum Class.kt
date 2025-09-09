@@ -7,14 +7,14 @@ enum class Direction{
 fun move(direction: Direction){
     when(direction){
         Direction.NORTH ->
-            println("Moving up..")
+            println("Moving North..")
         Direction.SOUTH ->
-            println("Moving down..")
+            println("Going South..")
         Direction.EAST ->
-            println("Moving right..")
+            println("Moving EAST..")
         Direction.WEST ->
             println("Moving left..")
-        //
+
 
 
     }
