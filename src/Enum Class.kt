@@ -11,9 +11,9 @@ fun move(direction: Direction){
         Direction.SOUTH ->
             println("Going South..")
         Direction.EAST ->
-            println("Moving EAST..")
+            println("Turning EAST..")
         Direction.WEST ->
-            println("Moving left..")
+            println("Heading WEST..")
 
 
 
