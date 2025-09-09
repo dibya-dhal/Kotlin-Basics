@@ -14,6 +14,7 @@ fun move(direction: Direction){
             println("Moving right..")
         Direction.WEST ->
             println("Moving left..")
+        //
 
 
     }
