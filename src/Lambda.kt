@@ -3,6 +3,6 @@ fun operator (a : Int, b : Int , op : (Int, Int) -> Int): Int {
 }
 fun main() {
 
-    val result = operator(5,4) {x,y -> x * y}
+    val result = operator(5,4) {x,y -> x + y}
     println("Result : $result") // o/p = 20
 }
