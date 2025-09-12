@@ -10,4 +10,7 @@ fun main() {
     val numbers = mutableListOf(1,2,3)
 
     println("Original List : $numbers")
+    numbers.add(4)
+    numbers.add(5)
+    println("Updated List : $numbers")
 }
