@@ -7,5 +7,12 @@ fun main() {
     )
 
     println("Original Students Marks : $studentMarks")
+    println()
+
+    studentMarks[4] =88
+
+    studentMarks[2] = 95
+
+    println("Update student Marks : $studentMarks")
 
 }
