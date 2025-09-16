@@ -1,8 +1,3 @@
-fun operator (a : Int, b : Int , op : (Int, Int) -> Int): Int {
-    return op(a,b)
-}
-fun main() {
-
-    val result = operator(5,4) {x,y -> x + y}
-    println("Result : $result") // o/p = 20
+fun calculate(a : Int , b : Int , operation : (Int, Int) -> Int) : Int{
+    return operation(a,b)
 }
