@@ -6,4 +6,7 @@ fun main() {
     val sum = calculate(5,3){x,y -> x + y}
     println("Sum : $sum")
 
+    val product = calculate(5,3){x,y -> x * y}
+    println("Product : $product")
+
 }
