@@ -4,4 +4,7 @@ inline fun calculateNormal (a : Int, b: Int,operation: (Int, Int)-> Int): Int {
 fun main() {
 
 
+    val sumNormal = calculateNormal(10,5) {x , y -> x + y}
+    println("Normal sum : $sumNormal")
+
 }
