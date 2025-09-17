@@ -7,4 +7,7 @@ fun main() {
     val sumNormal = calculateNormal(10,5) {x , y -> x + y}
     println("Normal sum : $sumNormal")
 
+    val productNormal = calculateNormal(10,5){x,y -> x * y}
+    println("Normal product : $productNormal")
+
 }
