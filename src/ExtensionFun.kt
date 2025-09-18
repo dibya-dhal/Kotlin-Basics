@@ -8,6 +8,9 @@ fun Int.square() : Int{
 
 fun main() {
     val text = "Hello".addExclamation()
-    println(text)
+    println("Text : $text")
+
+    val number = 7.square()
+    println("Square of 7 : $number")
 
 }
