@@ -2,6 +2,8 @@ fun main() {
 
     val name : String? = "Kotlin"
 
+    //using let to safely operate on nullable variable
+
     name?.let {
         println("Name of $it length : ${it.length}")
     }
