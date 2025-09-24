@@ -7,4 +7,10 @@ fun main() {
     // Access value by key
     println("Marks of roll number 2 : ${studentMarks[2]}")
 
+
+
+    val number = listOf<Int>(2,4,6,8)
+    val square = number.map { it * it }
+    println("Squares : $square")
+
 }
