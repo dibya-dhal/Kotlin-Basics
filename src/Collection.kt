@@ -17,8 +17,9 @@ fun main() {
     numbers.remove(2)
     numbers[0] = 10
     println("Updated list : $numbers")
+    println()
 
-    for (num in numbers){
-        println("Number : $num")
-    }
+    numbers.forEach {  println("Number : $it")}
+
+
 }
