@@ -28,5 +28,11 @@ fun main() {
     println(num)
 
     val sum = num.reduce { acc, num-> acc + num }
-    println(sum)
+    println("Sum : $sum")
+
+
+    val product = num.reduce {
+        acc, i -> acc * i
+    }
+    println("Product : $product")
 }
