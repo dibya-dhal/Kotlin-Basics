@@ -1,3 +1,5 @@
+import java.lang.module.FindException
+
 fun main() {
 
     val fruits = listOf("Apple","Orange","Mango")
@@ -20,6 +22,11 @@ fun main() {
     println()
 
     numbers.forEach {  println("Number : $it")}
+    println()
 
+    val num = listOf(1,2,3,4,5)
+    println(num)
 
+    val sum = num.reduce { acc, num-> acc + num }
+    println(sum)
 }
