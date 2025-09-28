@@ -11,5 +11,8 @@ fun main() {
 
     println("Length of name : ${name1?.length}")
 
+    val nickName1 : String? = "Rohan"
+    println("Length of nickname: ${nickName1?.length}")
+
 
 }
