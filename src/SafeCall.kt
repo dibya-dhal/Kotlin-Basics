@@ -7,5 +7,9 @@ fun main() {
         println("Email is available : $it")
     }
 
+    phone?.let {
+        println("Phone is available : $it")
+    } ?: println("Phone is not available")
+
 
 }
