@@ -5,3 +5,13 @@ class Database {
     }
 
 }
+
+fun main() {
+
+    val db = Database()
+
+    println("Program started..")
+
+    println(db.connection)
+
+}
