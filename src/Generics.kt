@@ -15,6 +15,6 @@ fun main() {
     val stringBox = Box("Hello Kotlin")
 stringBox.displayContent()
 
-    println(intBox.displayContent())
-    println(stringBox.displayContent())
+   printTwice("Hello Generics")
+    println(99)
 }
