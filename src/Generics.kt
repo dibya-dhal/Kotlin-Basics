@@ -1,5 +1,7 @@
 class Box<T> (val content : T){
-    fun displayContent() : T = content
+    fun displayContent() {
+        println("The content is : $content")
+    }
 }
 
 fun main() {
