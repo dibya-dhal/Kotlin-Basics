@@ -2,7 +2,7 @@ fun main() {
 
     println("Main Thread starts : ${Thread.currentThread().name}")
 
-    val thread = Thread{
+    val task = Runnable{
         for (i in 1..5){
             println("Child Thread : $i")
 
@@ -10,9 +10,5 @@ fun main() {
         }
     }
 
-    thread.start()
-    thread.join()
-
-    println("Main thread ends : ${Thread.currentThread().name}")
 
 }
