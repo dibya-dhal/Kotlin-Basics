@@ -17,4 +17,6 @@ fun main() = runBlocking {
     println("Main coroutine on : ${Thread.currentThread().name}")
     delay(3000)
 
+    println("Main ends : ${Thread.currentThread().name}")
+
 }
