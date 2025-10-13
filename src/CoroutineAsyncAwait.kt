@@ -19,6 +19,11 @@ println("Main starts : ${Thread.currentThread().name}")
 
 
     val user = job1.await()
+    val score = job2.await()
+
+    println("$user has a score of $score")
+
+    println("Main ends : ${Thread.currentThread().name}")
 
 
 
